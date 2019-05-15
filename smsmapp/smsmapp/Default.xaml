@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="smsmapp.Default">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+      <Label Text="Welcome to St. Mary &amp; St. Mina Coptic Orthodox"></Label>
+      <Entry x:Name="getEmail" Placeholder="Please Enter Your Email"  />
+      <Button Text="Check" Clicked="Handle_Clicked"  />
+      <Label x:Name="myValue" Text=""/>
+
+      <Button Text="Skip"
+          VerticalOptions="End" HorizontalOptions="Fill"  />
+    </StackLayout>
+</ContentPage>
